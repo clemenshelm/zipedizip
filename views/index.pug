@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  p(style="margin-top: 3rem") Please, feed me some files, I can't wait to zip!
+  form
+    input(type="file", name="files[]", multiple, id="files")
+
+  p(style="margin-top: 3rem") If you want, I can also list the content of a zip for you. If only you let me …
+  form
+    input(type="file", name="zip_file", id="zip_file")
+
+  #zip_content(style="margin-top: 1rem")
