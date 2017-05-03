@@ -9,4 +9,4 @@ Enjoy! 🤗
 
 - Install dependencies with `npm install` in the project dir.
 - Run `npm start`
-- Go to [http://localhost:3000/](localhost:3000)
+- Go to [localhost:3000](http://localhost:3000/)
