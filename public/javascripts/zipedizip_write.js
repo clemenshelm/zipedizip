@@ -20,7 +20,7 @@ document.getElementById('files').addEventListener('change', ({ target }) => {
 }, false);
 
 // add file as string
-// zip..file('magic_spell.txt', 'zipedizipulus spectaculus!')
+// zip.file('magic_spell.txt', 'zipedizipulus spectaculus!')
 // zip.folder('texts').file('magic_spell.txt', 'zipedizipulus spectaculus!')
 
 // add remote file
