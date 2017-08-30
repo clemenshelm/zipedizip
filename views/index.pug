@@ -2,6 +2,15 @@ extends layout
 
 block content
   h1= title
+
+  h2 Zipping on the server
+
+  p(style="margin: 3rem 0") This will create and download a zip file on the fly:
+    br
+    a(href="/zip-file.zip") Create and download zip file
+
+  h2 Zipping in the browser
+
   p(style="margin-top: 3rem") Please, feed me some files, I can't wait to zip!
   form
     input(type="file", name="files[]", multiple, id="files")
